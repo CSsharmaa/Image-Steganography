@@ -5,7 +5,7 @@ from PIL import ImageTk,Image
 from stegano import exifHeader as stg
 from tkinter import messagebox
 
-# Initializing the screen for python Image Steganography project
+
 Screen = Tk()
 Screen.title("Image Steganography")
 Screen.geometry("500x500+300+300")
@@ -42,7 +42,7 @@ def Decode():
 def Encode():
     Screen.destroy()
     EncScreen = Tk()
-    EncScreen.title("Encode- TechVidvan")
+    EncScreen.title("Img Steganography")
     EncScreen.geometry("500x500+300+300")
     EncScreen.config(bg="white")
     label = Label(text="Confidential Message")
